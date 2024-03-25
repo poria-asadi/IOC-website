@@ -1,0 +1,306 @@
+.background {
+  background: url(/img/leila-intro.jpg) no-repeat center; 
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.khadamat {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 60px;
+  margin-bottom: 55px;
+  margin-top: 55px;
+  text-align: end;
+}
+
+.khadamat-grid,
+.patient {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+}
+
+.first-page-grid
+ {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 150px;
+}
+
+.scapula, .elbow, .hand,
+ .fracture, .knee, .ankle, .baby,
+ .neuro {
+  background-color: rgb(0, 124, 119);
+  border-radius: 20px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; 
+  cursor: pointer;
+}
+
+.scapula-content,.elbow-content,
+.hand-content, .fracture-content,
+.knee-content, .ankle-content,
+ .baby-content, .neuro-content {
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.library, .library a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(44,83,128);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.clinic-title {
+  margin-right: 20px;
+
+}
+
+.intro-site {
+  background-color: rgb(44,83,128);
+  color: white;
+  border-radius: 20px;
+  text-align:center;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 5px;
+}
+
+.clinic-logo {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 400px;
+}
+
+.clinic-group {
+  text-align: center;
+  background-color: rgb(0,124,119);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.hossein-picture {
+  width: 250px;
+  border-radius: 400px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hossein-title {
+  background-color:  rgb(0, 124, 119);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.hossein-title a {
+  text-decoration: none;
+  color: white;
+}
+
+.hossein-profession,
+.hossein-content,
+ .hossein-profession2 {
+  color:black;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.hossein-content {
+  font-size: 15px;
+  margin-top: 12px;
+  line-height: 20px;
+}
+
+.appointment1 a, .appointment2 a, 
+.appointment3 a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.appointment1 {
+  text-align: center;
+  font-size: 13px;
+  background-color: rgb(44,83,128);
+  border-radius: 20px;
+  margin-top:20px ;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.appointment2 {
+  text-align: center;
+  font-size: 13px;
+  background-color: rgb(44,83,128);
+  border-radius: 20px;
+  margin-top:40px ;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.appointment3 {
+  text-align: center;
+  font-size: 13px;
+  background-color: rgb(44,83,128);
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.hossein-profession {
+  margin-bottom: 0px;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.hossein-profession2 {
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.leila-picture {
+  width: 250px;
+  border-radius: 400px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.leila-title {
+  background-color:  rgb(0, 124, 119);
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 20px;
+}
+.leila-title a {
+  text-decoration: none;
+  color: white;
+}
+
+.leila-profession,
+.leila-content,
+ .leila-profession2 {
+  color:black;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.leila-content {
+  font-size: 15px;
+  margin-top: 12px;
+  line-height: 20px;
+}
+
+.leila-profession {
+  margin-bottom: 0px;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.leila-profession2 {
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.leila-presentation, 
+.hossein-presentation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 150px;
+}
+
+.leila-intro{
+  text-align: center;
+  margin-left: 40px;
+  font-size: 15px;
+  margin-top: 120px;
+  line-height: 30px;
+}
+
+.leila-introdution {
+  width: 350px;
+  margin-left: 200px;
+  border-radius: 10px;
+  box-shadow: 20px 20px  rgb(0,124,119);
+
+}
+
+
+.hossein-intro {
+  text-align: center;
+  margin-right: 40px;
+  font-size: 15px;
+  margin-top: 100px;
+  line-height: 30px;
+}
+
+.hossein-introduction{
+  width: 350px;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 20px 20px  rgb(0,124,119);
+}
+
+.experience {
+font-size: 30px;
+font-weight: 700;
+text-align: center;
+color: black;
+margin-bottom: 80px;
+}
+
+.user {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; 
+}
+
+.patient-one {
+  font-size: 14px;
+  text-align: center;
+}
+
+.patient-grid {
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+}
